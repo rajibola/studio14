@@ -1,13 +1,7 @@
 import { Box, Flex, Grid, Text } from "@chakra-ui/react";
 import { useState } from "react";
 
-export const CustomCheck = ({
-  text,
-  value,
-}: {
-  text: string;
-  value: string;
-}) => {
+export const CustomCheck = ({ text }: { text: string; value: string }) => {
   const [isChecked, setChecked] = useState(false);
   return (
     <Flex
